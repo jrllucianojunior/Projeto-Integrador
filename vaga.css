@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500;900&display=swap');
+
+
+.container {
+  align-items: center;
+  margin-left: 5%;
+}
+
+.card {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 5%;
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 72%, rgba(255, 255, 255, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 72%, rgba(255, 255, 255, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 100%);
+  background: linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 72%, rgba(255, 255, 255, 1) 73%, #f2c900 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 73%, rgba(242, 201, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2c900', GradientType=1);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+#empresa {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 0px;
+  color: white;
+}
+
+.subtitle-card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+#salario,
+#tipo_trabalho,
+#experiencia {
+  margin-right: 2%;
+}
+
+.card-text_redirecionar {
+  margin-left: 45%;
+  color: black;
+}
+
+.section {
+  position: relative;
+  background: #fff;
+}
+
+.section > .txt-more {
+  display: block;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.section > .partial {
+  height: 200px;
+  overflow: hidden;
+}
+
+.section > a::before {
+  content: "Ocultar";
+}
+
+.section > a.txt-more::before {
+  content: "... Mostrar mais";
+}
